@@ -1,1 +1,5 @@
-
+streamlit==1.32.0
+pandas==2.2.1
+groq==0.5.0
+fpdf==1.7.2
+nvdlib==0.7.6

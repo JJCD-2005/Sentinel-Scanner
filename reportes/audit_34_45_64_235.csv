@@ -1,0 +1,4 @@
+Puerto,Protocolo,CVSS,CVE,Riesgo,Recomendacion
+22,PLAIN-TEXT,5.0,N/A,MEDIO,Administración remota expuesta.
+80,PLAIN-TEXT,5.0,N/A,MEDIO,Tráfico web sin cifrar (Cleartext).
+443,PLAIN-TEXT,9.8,N/A,CRÍTICO,URGENTE: Deshabilitar TLS 1.0/1.1. Forzar el uso de HSTS (HTTP Strict Transport Security) y Diffie-Hellman de 2048 bits.

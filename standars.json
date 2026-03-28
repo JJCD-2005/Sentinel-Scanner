@@ -1,0 +1,10 @@
+{
+    "SSLV2": {"score": 10.0, "risk": "CRÍTICO", "fix": "Protocolo obsoleto. Vulnerable a ataques DROWN."},
+    "SSLV3": {"score": 9.0, "risk": "CRÍTICO", "fix": "Vulnerable a POODLE. Deshabilitar inmediatamente."},
+    "TLSV1.0": {"score": 7.5, "risk": "ALTO", "fix": "Vulnerable a BEAST. No cumple estándares PCI-DSS."},
+    "TLSV1.1": {"score": 6.0, "risk": "MEDIO", "fix": "Cifrados débiles. Migrar a TLS 1.2 o superior."},
+    "TLSV1.2": {"score": 0.0, "risk": "SEGURO", "fix": "Configuración aceptable. Mantener actualizado."},
+    "TLSV1.3": {"score": 0.0, "risk": "SEGURO", "fix": "Protocolo moderno. Configuración óptima."},
+    "NOTLS": {"score": 5.0, "risk": "REVISAR", "fix": "No se detectó cifrado. Posible texto plano."},
+    "UNKNOWN": {"score": 4.0, "risk": "INCIERTO", "fix": "Protocolo no identificado en la base local."}
+}
